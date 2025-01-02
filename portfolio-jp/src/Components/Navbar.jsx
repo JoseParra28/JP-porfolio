@@ -32,6 +32,12 @@ const navLinks = [
     },
   ];
 
+const secialLinks = [
+  {
+
+}
+];
+
 export const Navbar = () => {
 
     
@@ -61,8 +67,9 @@ export const Navbar = () => {
                     </ul>
                     <div className="social-media">
                     <ul className="social-media">
-                        <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i className="fab fa-twitter-square"
-                    id="twitter"></i></a></li>
+                        <li>
+                          <a href="https://www.twitter.com" target="_blank" rel="noopener"><i className="fab fa-twitter-square" id="twitter"></i>
+                    </a></li>
                     <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i className="fab fa-youtube-square"
                     id="youtube"></i></a></li>
                     <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i className="fab fa-instagram"

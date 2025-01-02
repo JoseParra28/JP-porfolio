@@ -9,4 +9,14 @@
     .card{
         width: 100%;
     }
+    .about-canvas{
+        height: 3px;
+      }
+    .container {
+        width: 91%;
+        left: 2%;
+    }
+    .skills {
+        top: 65%;
+      }
 }

@@ -2,11 +2,12 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import React, { useRef } from "react"
 import { motion } from "framer-motion";
 import AboutModel from "../Models/AboutModel";
+import '../Styles/mediaquery.css'
 
 const AboutContent = () => {
     return(
         <>
-      <section>
+      <section >
         <div className="wrapper">
       <div className="container">
             
@@ -47,13 +48,13 @@ const AboutContent = () => {
                 </div>
             </div>
             <div className="progress">
-                <div className="progress-bar threed" >
-                <p>Blender</p>
+                <div className="progress-bar python" >
+                <p>Python</p>
                 </div>
             </div>
             <div className="progress">
                 <div className="progress-bar python" >
-                <p>Python</p>
+                <p>SQL</p>
                 </div>
             </div>
             </div>
