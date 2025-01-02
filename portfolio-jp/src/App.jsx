@@ -18,9 +18,9 @@ function App() {
 
   return (
     <>
-    {/* <SubNav/> */}
-    {/* <Navbar/> */}
-     {/* <HeroSection/> */}
+    <SubNav/>
+    <Navbar/>
+     <HeroSection/>
     <AboutContent/>
     <Card/>
     <Contact/>
