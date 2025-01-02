@@ -1,23 +1,37 @@
 @media (max-width: 900px){
-    .card-wrapper {
-        width: 80%;
-        margin: 31px auto 50px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 30px;
-    }
-    .card{
-        width: 100%;
-    }
-    .about-canvas{
-        height: 3px;
-      }
-    .container {
-        width: 91%;
-        left: 2%;
-    }
-    .skills {
-        top: 65%;
-      }
-    
+  .logo img {
+   margin-left: -247%;
+   
+  }
+  .hero-content {
+    top: 450px;
+    touch-action: auto;
+  }
+  .hero-content h1 {
+   font-size: 1.7rem;
+  }
+  .hero-content h3{
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+  }
+  .card-wrapper {
+width: 80%;
+margin: 31px auto 50px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 30px;
+ }
+
+.about-canvas{
+height: 3px;
+  }
+.container {
+width: 91%;
+left: 2%;
+}
+.skills {
+top: 65%;
+  }
+   
+
 }

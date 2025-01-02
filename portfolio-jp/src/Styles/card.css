@@ -65,3 +65,8 @@ transition: all .35s;
 background-color: var(--font-color);
 color: var(--background);
 }
+@media (max-width: 900px){
+    .card{
+        width: 100%;
+    }
+}

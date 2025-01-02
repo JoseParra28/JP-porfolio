@@ -21,8 +21,8 @@ function App() {
     {/* <SubNav/> */}
     {/* <Navbar/> */}
      {/* <HeroSection/> */}
-    {/* <AboutContent/> */}
-    {/* <Card/> */}
+    <AboutContent/>
+    <Card/>
     <Contact/>
     {/* <EarthCanvas/> */}
     {/* <StarsCanvas/> */}
