@@ -1,4 +1,12 @@
-.contact-div {
+.containers-contact {
+    top: 10%;
+    left: 8%;
+    position: absolute;
+    margin: 1%;
+    /* width: 100%; */
+    z-index: 2;
+  }
+/* .contact-div {
     backdrop-filter: blur(6px);
     background: rgba(42, 41, 41, 0.2);
     width: 31%;
@@ -6,7 +14,7 @@
     border-radius: 3%;
     position: relative;
     
-}
+} */
 form {
     position: relative;
     padding: 20px;

@@ -3,6 +3,7 @@ import { useEffect, useState, useRef } from 'react'
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from '../Models/Earth';
+import '../Styles/mediaquery.css'
 
      // service_xdrv1ec  serviceid
         // template_8jd5nws template id
@@ -63,11 +64,11 @@ const Contact = () => {
     return (
 
        <section id="contact">
-        <div className="containers">
+        <div className="containers-contact">
         <div>
             <h1>Let's get in touch</h1>
         </div>
-        <div className="contact-div">
+        <div className="">
             <form action="#" ref={formRef} onSubmit={handleSubmit}>
             <label for="name">Name:</label>
             {/* <span>Name</span> */}

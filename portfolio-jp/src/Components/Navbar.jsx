@@ -32,11 +32,13 @@ const navLinks = [
     },
   ];
 
-const secialLinks = [
-  {
-
-}
-];
+// const socialLinks = [
+//   {
+//     id: "contact",
+//     title: "Contact",
+//     url: "#contact",
+// },
+// ];
 
 export const Navbar = () => {
 
