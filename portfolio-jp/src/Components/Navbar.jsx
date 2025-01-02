@@ -32,13 +32,7 @@ const navLinks = [
     },
   ];
 
-// const socialLinks = [
-//   {
-//     id: "contact",
-//     title: "Contact",
-//     url: "#contact",
-// },
-// ];
+
 
 export const Navbar = () => {
 
@@ -69,15 +63,10 @@ export const Navbar = () => {
                     </ul>
                     <div className="social-media">
                     <ul className="social-media">
-                        <li>
-                          <a href="https://www.twitter.com" target="_blank" rel="noopener"><i className="fab fa-twitter-square" id="twitter"></i>
-                    </a></li>
-                    <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i className="fab fa-youtube-square"
-                    id="youtube"></i></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i className="fab fa-instagram"
-                    id="instagram"></i></a></li>
-                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i className="fa-brands fa-facebook"
-                    id="facebook"></i></a></li>
+                        <li><a href="https://github.com/JoseParra28" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="mailto:Jmjp_18@hotmail.com" target="_blank" rel="noopener"><i class="fa-regular fa-envelope"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jose-p-b50556247/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a></li>
+                   
                     </ul> 
                     </div>
                    
