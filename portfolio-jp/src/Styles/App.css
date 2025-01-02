@@ -12,7 +12,9 @@
 
   
   /* HERO */
-  
+  #hero {
+    height: 100vh;
+  }
   .hero-content {
     position: absolute;
     top: 293px;

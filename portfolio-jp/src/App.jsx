@@ -18,12 +18,12 @@ function App() {
 
   return (
     <>
-    <SubNav/>
-    <Navbar/>
-     {/* <HeroSection/> */}
-    {/* <AboutContent/> */}
-    {/* <Card/> */}
-    {/* <Contact/> */}
+    {/* <SubNav/> */}
+    {/* <Navbar/> */}
+     <HeroSection/>
+    <AboutContent/>
+    <Card/>
+    <Contact/>
     {/* <EarthCanvas/> */}
     {/* <StarsCanvas/> */}
     {/* <MyModel/> */}
