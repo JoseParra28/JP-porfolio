@@ -1,0 +1,183 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-color: #96cf24;
+    --font-white: #959292;
+    --background: #040404;
+  }
+  
+  html {
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #040404;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:var(--font-color);
+  }
+  p {
+    color: var(--font-white);
+  }
+  /* SUBNAV */
+.subnav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-self: center;
+  position: fixed;
+  z-index: 2;
+}
+.logo img {
+  height: 60px;
+  margin-left: 50%;
+}
+.dropdown img {
+  height: 35px;
+  margin-top: 5%;
+} 
+
+  /* NAVBAR */
+  .drop-logo {
+display: flex;
+justify-content: space-around;
+margin-top: 5%;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .drop-logo img{
+    height: 35px;
+  }
+  .nav {
+    /* display: none; */
+    height: 96vh;
+    width: 380px;
+    box-shadow: 0 0 10px rgba(240, 235, 235, 0.2);
+    background-color: rgba(42, 41, 41, 0.2);
+    position: absolute;
+    z-index: 3;
+    resize: both;
+    right: 0%;
+  }
+  .nav, ul, li, a{
+    text-align: end;
+    text-decoration: none;
+    list-style: none;
+  }
+  nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--font-white);
+  }
+  nav a:hover {
+    color: var(--font-color);
+    filter: blur(1px);
+  }
+  ul {
+    padding: 30px;
+  }
+  li {
+    padding: 20px;
+  }
+  .social-media {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  h1, h2 {
+    filter: blur(1px);
+  }
+  h3{
+    filter: blur(0.7px);
+  }
+
+  /* BUTTON */
+  
+  button, .a-button {
+    padding: 15px;
+    border: solid 1px rgba(42, 41, 41, 0.2);
+    box-shadow: 0 0 10px rgba(240, 235, 235, 0.2);
+    background-color: rgba(42, 41, 41, 0.2);
+    color: var(--font-color) ;
+    font-size: 1rem;
+  }
+.a-button:hover {
+    background-image: linear-gradient(to bottom,#96cf24, #5a5a37);
+    color: var(--background);
+  }
+  button:hover {
+    background-image: linear-gradient(to bottom,#96cf24, #5a5a37);
+    color: var(--background);
+  }
+  .btn{
+    box-shadow: 0 0 10px rgba(240, 235, 235, 0.2);
+    background-color: rgba(42, 41, 41, 0.2);
+    color: var(--font-color) ;
+    border-radius: 3%;
+    font-size: 1rem; 
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+ 
+  .btn:hover {
+    background-color: var(--font-color);
+    color: var(--background);
+  }
+  /* SECTION */
+  section {
+    /* height: 100vh; */
+    position: relative;
+    max-width: auto;
+  }
+  /* MODELS */
+  canvas {
+    height: 100vh;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    touch-action: none;
+    /* position: relative; */
+  
+  }
+  iframe {
+    position: relative;
+    z-index: 2;
+  }
+  @media screen and (max-width:950px){
+  canvas{
+    height: 60vh;
+    touch-action: none;
+  }
+  }
+  .htmlScreen iframe {
+  width: 1024px;
+  height: 670px;
+  border: none;
+  border-radius: 1px;
+  background-color: black;
+  color: rgb(173, 18, 18);
+  }
+
+
+
+
+  /* Stars */
+
+.earthCanvas {
+  position: absolute;
+  z-index: 1;
+}
