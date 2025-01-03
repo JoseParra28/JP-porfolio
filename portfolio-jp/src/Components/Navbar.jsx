@@ -4,34 +4,8 @@ import { Link } from "react-router-dom"
 import menu from '../assets/menu.svg'
 import close from '../assets/close.svg'
 import logo from '../assets/logo.png'
-
 import '../Styles/App.css'
-// import { navLinks } from "../Constants"
-
-const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-    url: "#home",
-  },
-    {
-      id: "about",
-      title: "About",
-      url: "#about",
-    },
-    {
-      id: "work",
-      title: "Work",
-      url: "#work",
-
-    },
-    {
-      id: "contact",
-      title: "Contact",
-      url: "#contact",
-    },
-  ];
-
+import { navLinks, socialLinks } from "../js"
 
 
 export const Navbar = () => {
@@ -63,15 +37,14 @@ export const Navbar = () => {
                     </ul>
                     <div className="social-media">
                     <ul className="social-media">
-                        <li><a href="https://github.com/JoseParra28" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="mailto:Jmjp_18@hotmail.com" target="_blank" rel="noopener"><i class="fa-regular fa-envelope"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/jose-p-b50556247/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a></li>
-                   
+                      {socialLinks.map((social) => (
+                        <li key={social.id} >
+                          <a href={social.url} target={social.target}> <i className={social.iconId}></i> </a>
+                        </li>
+                      ))}
                     </ul> 
-                    </div>
-                   
+                    </div>                 
                 </div>
-            
         </nav>
         </>
     )
