@@ -64,7 +64,7 @@ margin-top: 5%;
     box-shadow: 0 0 10px rgba(240, 235, 235, 0.2);
     background-color: rgb(16, 16, 16);
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     resize: both;
     right: 0%;
   }

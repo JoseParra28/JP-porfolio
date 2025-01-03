@@ -5,6 +5,7 @@ import menu from '../assets/menu.svg'
 import close from '../assets/close.svg'
 import logo from '../assets/logo.png'
 import '../Styles/App.css'
+import { SubNav } from "./Subnav"
 import { navLinks, socialLinks } from "../js"
 
 
