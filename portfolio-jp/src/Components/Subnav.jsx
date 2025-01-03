@@ -14,7 +14,7 @@ export const SubNav = () => {
     return (
         <div className="subnav">
             <div className="logo">
-                <a href="#home"><img src={logo} alt="logo" /></a>
+                <a href="#home"><img  href="#home" onClick={() => {window.scrollTo(0, 0);}} src={logo} alt="logo" /></a>
             </div>
             <div className="dropdown">
             <img src={toggle ? close : menu} alt="menu icon" className="hamburger-menu" onClick={() => setToggle(!toggle)} />

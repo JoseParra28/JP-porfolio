@@ -16,10 +16,10 @@ function App() {
     <>
     <SubNav/>
     {/* <Navbar/> */}
-     {/* <HeroSection/> */}
-    {/* <AboutContent/> */}
-    {/* <Card/> */}
-    {/* <Contact/> */}
+     <HeroSection/>
+    <AboutContent/>
+    <Card/>
+    <Contact/>
     {/* <EarthCanvas/> */}
     {/* <StarsCanvas/> */}
     {/* <MyModel/> */}
