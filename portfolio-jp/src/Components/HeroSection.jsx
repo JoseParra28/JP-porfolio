@@ -14,8 +14,9 @@ export const HeroSection = () =>{
                 </div>
                 
             </div>
-            <HeroModel/>
-            
+            {/* <HeroModel/>    */}
+            <EarthCanvas/>
+
         </section>
     )
 }
