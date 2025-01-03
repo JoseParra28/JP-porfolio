@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.loader {
+  height: 70px;
+}
 :root {
     --font-color: #96cf24;
     --font-white: #959292;

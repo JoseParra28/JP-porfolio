@@ -1,4 +1,4 @@
-import { Html, useProgress } from "@react-three/drei";
+import { Html, Loader, useProgress } from "@react-three/drei";
 import logo from '../assets/logo.png'
 
 const CanvasLoader = () => {
@@ -15,7 +15,8 @@ const CanvasLoader = () => {
       }}
     >
       <span className='canvas-loader'>Loading....</span>
-      <img src={logo} sizes="3px" alt="" />
+      <img src={logo}  alt="loader image" className="loader"/>
+      
       <p
         style={{
           fontSize: 14,
