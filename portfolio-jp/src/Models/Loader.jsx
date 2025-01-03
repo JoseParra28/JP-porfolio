@@ -1,4 +1,5 @@
 import { Html, useProgress } from "@react-three/drei";
+import logo from '../assets/logo.png'
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
@@ -14,6 +15,7 @@ const CanvasLoader = () => {
       }}
     >
       <span className='canvas-loader'>Loading....</span>
+      <img src={logo} sizes="3px" alt="" />
       <p
         style={{
           fontSize: 14,

@@ -1,7 +1,7 @@
 import EarthCanvas from "../Models/Earth"
 import HeroModel from "../Models/HeroModels"
 import StarsCanvas from "../Models/Stars"
-import { Navbar } from "./Navbar"
+
 
 export const HeroSection = () =>{
     return (

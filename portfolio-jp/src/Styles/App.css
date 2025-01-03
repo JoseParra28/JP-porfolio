@@ -38,7 +38,7 @@
   .container {
     top: 10%;
     left: 8%;
-    z-index: 3;
+    z-index: 1;
     position: absolute;
     margin: 1%;
     width: 30%;
@@ -53,7 +53,7 @@
     position: absolute;
     margin: 1%;
     width: 80%;
-    z-index: 2;
+    z-index: 1;
   }
   .container p {
   font-size: 1rem;
