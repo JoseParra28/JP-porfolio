@@ -68,9 +68,12 @@ const HeroModel = () => {
             </>
         )
     }
+   
+  
+
     return (
         
-        <Canvas className="hero-canvas" id="hero">
+        <Canvas className="hero-canvas" >
             <Suspense fallback={<CanvasLoader/>}>
             <ScrollControls pages={0.2}>
            <Scene/>

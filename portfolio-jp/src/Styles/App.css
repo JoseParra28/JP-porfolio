@@ -26,6 +26,7 @@
   }
   .hero-content h3{
     font-size: 2rem;
+    padding-bottom: 10%;
   }
   .hero-content button {
     text-align: end;
@@ -56,6 +57,7 @@
   }
   .container p {
   font-size: 1rem;
+  margin-top: 3%;
   }
   
   .skills {
@@ -88,6 +90,7 @@
   }
   .progress-bar p {
     padding-left: 30px;
+    margin: 3%;
   }
   
   .webgl {
@@ -106,5 +109,5 @@
     width: 28%;
   }
   .python {
-    width: 30%;
+    width: 32%;
   }

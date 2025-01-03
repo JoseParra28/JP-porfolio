@@ -44,7 +44,7 @@ const AboutContent = () => {
             </div>
             <div className="progress">
                 <div className="progress-bar HC" >
-                <p>HTML + CSS</p>
+                <p>Html + Css</p>
                 </div>
             </div>
             <div className="progress">
