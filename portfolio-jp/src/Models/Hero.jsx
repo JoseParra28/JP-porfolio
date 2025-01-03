@@ -4,8 +4,7 @@ import {Html, ContactShadows, Environment, Float, PresentationControls,  useGLTF
 import { useControls } from 'leva'
 import CanvasLoader from "./Loader"
 
-
-const HeroModel = () => {
+const Hero = () => {
 
     const materialProps = useControls({
         thickness: {value: 0.2, min: 0, max:3, step: 0.05},
@@ -15,28 +14,8 @@ const HeroModel = () => {
         chromaticAberration: {value: 0.82, min: 0, max:1},
         backside: {value: true}
     })
-    const Sphere = ({position, size, color}) => {
-        const ref = useRef()
-        const data = useScroll()
 
-        useFrame ((state, delta) => {
-            const { offset } = data
-            // ref.current.rotation.x = offset * 5
-            ref.current.rotation.y = offset * 5
-            // ref.current.rotation.z = offset * 5
-            // ref.current.position.z = offset * 5.7
-            // ref.current.position.x = offset * -0.1
-            // ref.current.position.y = offset * -0.1
-        })
-        return (
-            <mesh position={position} ref={ref}> 
-                <boxGeometry args={[1.2, 1.2, 1.2]}/>
-                <MeshTransmissionMaterial {...materialProps} />
-                <meshStandardMaterial color={color}  />
-            </mesh>
-        )
-    }
-    const Torus = ({position, size, color}) => {
+    const Box = ({position, size, color}) => {
         const ref = useRef()
         const data = useScroll()
 
@@ -51,7 +30,6 @@ const HeroModel = () => {
         })
         return (
             <mesh position={position} ref={ref}> 
-                {/* <torusGeometry args={size}/> */}
                 <boxGeometry args={[1,1,1]}/>
                 <MeshTransmissionMaterial {...materialProps} />
                 <meshStandardMaterial color={color}  />
@@ -71,13 +49,11 @@ const HeroModel = () => {
     return (
         
         <Canvas className="hero-canvas" id="hero">
-            <Suspense fallback={<CanvasLoader/>}>
-            <ScrollControls pages={0.2}>
-           <Scene/>
+        <Suspense fallback={<CanvasLoader/>}>
+        <ScrollControls pages={0.2}>
+        <Scene/>
         <PresentationControls>
-        {/* <Float> */}
-        <Torus position={[4,0,0]} />
-        {/* </Float> */}
+        <Box position={[4,0,0]} />
         </PresentationControls>       
         </ScrollControls>
         </Suspense>
@@ -87,4 +63,4 @@ const HeroModel = () => {
     )
 }
 
-export default HeroModel
+export default Hero

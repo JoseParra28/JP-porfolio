@@ -10,17 +10,21 @@ import Contact from './Components/Contact'
 import EarthCanvas from './Models/Earth'
 import { SubNav } from './Components/Subnav'
 import BookCanvas from './Models/ContactModel'
+import Hero from './Models/Hero'
+
 
 function App() {
 
   return (
     <>
     <SubNav/>
+    {/* <Hero/> */}
+    {/* <HeroModel/> */}
     {/* <Navbar/> */}
-     {/* <HeroSection/> */}
+     <HeroSection/>
     {/* <AboutContent/> */}
     {/* <Card/> */}
-    <Contact/>
+    {/* <Contact/> */}
     {/* <BookCanvas/> */}
     {/* <EarthCanvas/> */}
     {/* <StarsCanvas/> */}

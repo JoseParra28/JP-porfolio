@@ -9,14 +9,17 @@
     --background: #040404;
   }
   
-  * {
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--background);
+    /* background-color: var(--background); */
     scroll-behavior: smooth;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:var(--font-color);
+  }
+  html {
+     /* background-color: var(--background); */
   }
   p {
     color: var(--font-white);
