@@ -15,7 +15,6 @@ export const HeroSection = () =>{
                 
             </div>
             <HeroModel/>
-            
         </section>
     )
 }

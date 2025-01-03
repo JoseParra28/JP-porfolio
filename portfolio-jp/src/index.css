@@ -18,7 +18,7 @@
     color:var(--font-color);
   }
   html {
-     /* background-color: var(--background); */
+     background-color: var(--background);
   }
   p {
     color: var(--font-white);
@@ -63,7 +63,7 @@
     /* display: none; */
     height: 96vh;
     width: 380px;
-    border-radius: 3%;
+    border-radius: 3px;
     box-shadow: 0 0 10px 0 rgba(240, 235, 235, 0.2);
     background-color: var(--background);
     position: absolute;
@@ -112,25 +112,27 @@
     border: solid 1px rgba(42, 41, 41, 0.2);
     box-shadow: 0 0 10px rgba(240, 235, 235, 0.2);
     background-color: rgba(42, 41, 41, 0.2);
-    color: var(--font-color) ;
+    color: var(--font-white);
     font-size: 1rem;
   }
 .a-button:hover {
-    background-image: linear-gradient(to bottom,#96cf24, #5a5a37);
-    color: var(--background);
+  background-image: linear-gradient(to bottom,#3f3f3f, #000000);
+  color: var(--font-color);
+  transition: all .35s;
   }
   button:hover {
-    background-image: linear-gradient(to bottom,#96cf24, #5a5a37);
-    color: var(--background);
+    background-image: linear-gradient(to bottom,#3f3f3f, #000000);
+    color: var(--font-color);
+    transition: all .35s;
   }
   .btn{
     box-shadow: 0 0 10px rgba(240, 235, 235, 0.2);
     background-color: rgba(42, 41, 41, 0.2);
-    color: var(--font-color) ;
-    border-radius: 3%;
+    color: var(--font-white);
+    border-radius: 3px;
     font-size: 1rem; 
     display: block;
-    width: 200px;
+    width: 150px;
     height: 40px;
     line-height: 40px;
     font-size: 18px;
@@ -141,14 +143,14 @@
   }
  
   .btn:hover {
-    background-color: var(--font-color);
+    background-image: linear-gradient(to bottom,#3f3f3f, #000000);
     color: var(--background);
   }
   /* SECTION */
   section {
-    /* height: 100vh; */
     position: relative;
     max-width: auto;
+    background-color: var(--background);
   }
   /* MODELS */
   canvas {

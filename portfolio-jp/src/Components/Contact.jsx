@@ -4,10 +4,8 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from '../Models/Earth';
 import '../Styles/mediaquery.css'
-import HeroModel from '../Models/HeroModels';
-import BookCanvas from '../Models/ContactModel';
 
-     // service_xdrv1ec  serviceid
+        // service_xdrv1ec  serviceid
         // template_8jd5nws template id
         // Rjd7Jdx71Vjb47t7C public key
 
@@ -66,19 +64,22 @@ const Contact = () => {
     return (
 
        <section id="contact">
-        <div className="containers-contact">
+        <div className="containers">
         <div>
             <h1>Let's get in touch</h1>
         </div>
-        <div className="">
+        <div className="contact-div">
             <form action="#" ref={formRef} onSubmit={handleSubmit}>
             <label for="name">Name:</label>
+            {/* <span>Name</span> */}
             <input type="text" id="name" value={form.name} onChange={handleChange} name="name" required />
 
             <label for="email">Email:</label>
+            {/* <span>Email</span> */}
             <input type="email" id="email" name="email" value={form.email} onChange={handleChange}required />
             
             <label for="message">Message:</label>
+            {/* <span>Message</span> */}
             <textarea id="message" name="message" rows="6" value={form.message} onChange={handleChange} required ></textarea>
                 
             <button type="submit">{loading ? 'Sending...' : 'Send'}</button> 
@@ -88,9 +89,7 @@ const Contact = () => {
 
         </div>
         </div>
-        {/* <EarthCanvas/> */}
-         {/* <HeroModel/>    */}
-         <BookCanvas/>
+        <EarthCanvas/>
 
        </section>
       
