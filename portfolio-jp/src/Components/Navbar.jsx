@@ -18,16 +18,6 @@ export const Navbar = () => {
     return (
         <>
         <nav className="nav">
-        {/* <div className="drop-logo">
-        <div className="navbar-logo">
-            <img src={logo} alt="logo" />
-            </div>
-        <div className="dropdown">
-                        <img src={toggle ? close : menu} alt="menu icon" className="hamburger-menu" onClick={() => setToggle(!toggle)} />
-                        <div className={`${!toggle ? 'hidden' : 'active'}`} id="toggle"></div>
-            </div>
-        </div> */}
-                
                 <div className="nav-inks">
                     <ul>
                     {navLinks.map((nav) => (

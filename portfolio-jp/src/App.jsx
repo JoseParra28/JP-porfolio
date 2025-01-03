@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <SubNav/>
-    <Navbar/>
+    {/* <Navbar/> */}
      {/* <HeroSection/> */}
     {/* <AboutContent/> */}
     {/* <Card/> */}
