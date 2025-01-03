@@ -39,5 +39,9 @@ top: 65%;
   .contact-div {
     width: 100%;
 }
+.containers {
+  position: relative;
+  z-index: 1;
+}
 
 }

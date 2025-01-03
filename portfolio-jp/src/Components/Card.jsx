@@ -89,7 +89,7 @@ export const Card = () => {
             )
         })}
             </div>
-            
+            <br />
         </section>
     )
 }
