@@ -1,7 +1,9 @@
 @media (max-width: 900px){
   .logo img {
    margin-left: -247%;
-   
+  }
+  .dropdown img {
+    margin-top: 4%;
   }
   .nav {
     width: 325px;
@@ -36,7 +38,6 @@ top: 10%;
 position: relative;
 
 }
-
 .skills {
 top: 85%;
 right: 10%;
