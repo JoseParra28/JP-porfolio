@@ -40,6 +40,7 @@
 .logo img {
   height: 45px;
   z-index: 3;
+  margin-top: 13px;
 }
 .dropdown img {
   height: 35px;
@@ -47,6 +48,20 @@
   z-index: 3;
   position: absolute;
 } 
+@keyframes show {
+  from {
+      transform: translateY(-100%);
+  }
+  to {
+      transform: translateY(0%);
+  }
+}
+.arrow {
+  position: absolute;
+  right: 5rem;
+  bottom: 2.5rem;
+  z-index: 3;
+}
   /* NAVBAR */
   .hidden {
     display: none;

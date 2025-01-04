@@ -3,7 +3,8 @@ import logo from '../assets/logo.png'
 import menu from '../assets/menu.svg'
 import close from '../assets/close.svg'
 import { navLinks, socialLinks } from '../js'
-
+import arrow from '../assets/arrow.png'
+import scroll from '../assets/scroll.png'
 
 export const SubNav = () => {
 
@@ -12,6 +13,7 @@ export const SubNav = () => {
     const [toggles, setToggles] = useState(false)
 
     return (
+        <>
         <div className="subnav">
             <div className="logo">
                 <a href="#home"><img  href="#home" onClick={() => {window.scrollTo(0, 0);}} src={logo} alt="logo" /></a>
@@ -43,6 +45,9 @@ export const SubNav = () => {
             </div>
            
         </div>
-        
+        <div className='arrow'>
+            <img src={scroll} alt="arrow image" />
+        </div>
+        </>
     )
 }

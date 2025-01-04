@@ -16,7 +16,7 @@ const projects = [
     languageOne: 'HTML',
     languageTwo: 'CSS',
     languageThree: 'Javascript',
-    description: 'My very first website',
+    description: '',
     gitLink: 'https://github.com/JoseParra28/SEBASTIAN',
     livePreview: 'https://joseparra28.github.io/SEBASTIAN/index.html'
 },
@@ -30,8 +30,8 @@ const projects = [
     languageFour: 'Python',
     api: 'API',
     description: 'Backend website ',
-    gitLink: 'https://www.npmjs.com/package/react-external-link',
-    livePreview: '/'
+    gitLink: 'https://github.com/JoseParra28/OBLIVIOUS-BAKERY',
+    livePreview: 'https://oblivious-bakery.herokuapp.com/'
 },
 {
     pic: python,
@@ -39,8 +39,8 @@ const projects = [
     title: "Python Project",
     languageFour: 'Python',
     description: 'My very first website',
-    gitLink: 'https://www.npmjs.com/package/react-external-link',
-    livePreview: '/'
+    gitLink: 'https://github.com/JoseParra28/HangPerson-project',
+    livePreview: 'https://camo.githubusercontent.com/b3f5295afa2a67bee9c17dc85b75a4942c23d4229e258b00dc146efc82e93d99/68747470733a2f2f68616e67706572736f6e2d70726f6a6563742e6865726f6b756170702e636f6d'
 },
 {
     pic: runway,
