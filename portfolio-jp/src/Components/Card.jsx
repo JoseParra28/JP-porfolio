@@ -16,7 +16,7 @@ const projects = [
     languageOne: 'HTML',
     languageTwo: 'CSS',
     languageThree: 'Javascript',
-    description: '',
+    description: 'Personal practice project showcasing a fictional photography website. Designed by Squarespace and developed by myself.',
     gitLink: 'https://github.com/JoseParra28/SEBASTIAN',
     livePreview: 'https://joseparra28.github.io/SEBASTIAN/index.html'
 },
@@ -29,7 +29,7 @@ const projects = [
     languageThree: 'Javascript',
     languageFour: 'Python',
     api: 'API',
-    description: 'Backend website ',
+    description: 'Backend website, using Django, it features a fictional bakery booking system. Models include Products, User and Django allauth',
     gitLink: 'https://github.com/JoseParra28/OBLIVIOUS-BAKERY',
     livePreview: 'https://oblivious-bakery.herokuapp.com/'
 },
@@ -38,7 +38,7 @@ const projects = [
     id: 'python',
     title: "Python Project",
     languageFour: 'Python',
-    description: 'My very first website',
+    description: 'Python version on the game "Hangman". Primary language used for this project is Python and was deployed with Heroku',
     gitLink: 'https://github.com/JoseParra28/HangPerson-project',
     livePreview: 'https://camo.githubusercontent.com/b3f5295afa2a67bee9c17dc85b75a4942c23d4229e258b00dc146efc82e93d99/68747470733a2f2f68616e67706572736f6e2d70726f6a6563742e6865726f6b756170702e636f6d'
 },
@@ -48,7 +48,7 @@ const projects = [
     title: "Runway Models",
     languageOne: 'HTML',
     languageTwo: 'CSS',
-    description: 'My very first websitena, jknbcsiuabf  iusoif   jkfbiuewhfowefj uiwekhfonfljhaof8hab',
+    description: 'My very first website, created using only HTML and CSS as part of my first project for Code Institute. ',
     gitLink: 'https://github.com/JoseParra28/runway-models-final-project?tab=readme-ov-file',
     livePreview: "https://joseparra28.github.io/runway-models-final-project/"
 }
