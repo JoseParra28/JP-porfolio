@@ -12,6 +12,7 @@ const AboutModel = ()=>{
 
     return (
         <section id="about">
+            <div className="canvas-div">
         <Canvas className="about-canvas">
             
             <Environment preset="city"/>
@@ -66,7 +67,7 @@ const AboutModel = ()=>{
       
             </mesh>
         </Canvas>
-    
+        </div>
         </section>
     )
 }

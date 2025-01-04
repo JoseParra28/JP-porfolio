@@ -157,7 +157,7 @@
   /* MODELS */
   canvas {
     height: 100vh;
-    width: 100%;
+    width: 10%;
     margin: 0;
     padding: 0;
     touch-action: none;
@@ -172,7 +172,11 @@
     touch-action: none;
   }
   }
+  /* .about-canvas {
+    width: 50%;
+  } */
   .htmlScreen iframe {
+    z-index: 1;
   width: 1024px;
   height: 670px;
   border: none;
