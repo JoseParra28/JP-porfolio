@@ -19,8 +19,8 @@ const AboutContent = () => {
             where my main focus are both art and logic.
           </p>
             </div>
-            </div>
-            <div className="container skills">
+</div>
+            <div className="container-1 skills">
             <div className="blur-bg">
             <h1>Skills</h1>
             </div>

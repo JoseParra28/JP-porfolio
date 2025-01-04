@@ -45,8 +45,8 @@ export const SubNav = () => {
             </div>
            
         </div>
-        <div className='arrow'>
-            <img src={scroll} alt="arrow image" />
+        <div className="mouse-wrapp">
+        <div className="mouse"></div>
         </div>
         </>
     )

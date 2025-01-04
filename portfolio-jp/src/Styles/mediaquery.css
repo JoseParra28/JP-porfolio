@@ -31,10 +31,16 @@ height: 3px;
   }
 .container {
 width: 81%;
-left: 2%;
+left: 5%;
+top: 10%;
+position: relative;
+
 }
+
 .skills {
-top: 70%;
+top: 85%;
+right: 10%;
+width: 81%;
   }
   .contact-div {
     width: 100%;

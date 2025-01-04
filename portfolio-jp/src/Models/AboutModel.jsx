@@ -38,7 +38,7 @@ const AboutModel = ()=>{
           />          
       <primitive 
       object={computer.scene}
-      position={[3, -1,- 1.4]}
+      position={[-1, -1.2,- 1]}
       rotation-y={-26}
       scale={1.3}
       > 
