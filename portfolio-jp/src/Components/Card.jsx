@@ -4,11 +4,25 @@ import runway from '../assets/runway.png'
 import sebastian from '../assets/sebastian.png'
 import python from '../assets/python.png'
 import oblivious from '../assets/oblivious.png'
+import portfolio from '../assets/portfolio.png'
 import '../Styles/card.css'
 import '../Styles/mediaquery.css'
 
 
 const projects = [
+    // {
+    //     pic: portfolio,
+    //     id: 'portfolio',
+    //     title: "Portfolio 2025",
+    //     languageOne: 'HTML',
+    //     languageTwo: 'CSS',
+    //     languageThree: 'Javascript',
+    //     languageFour: 'React',
+    //     languageFive: 'WebGL',
+    //     description: "My portfolio website, you're probably looking at right now.",
+    //     gitLink: 'https://github.com/JoseParra28/SEBASTIAN',
+    //     livePreview: 'https://joseparra28.github.io/SEBASTIAN/index.html'
+    // },
     {
     pic: sebastian,
     id: 'sebastian',
@@ -68,6 +82,7 @@ export const Card = () => {
             <div className="card-content">
                 <h3>{project.title}</h3>
                 <span className="language python">{project.languageFour}</span>
+                {/* <span className="language python">{project.languageFive}</span> */}
                 <span className="language html">{project.languageOne}</span>
                 <span className="language css">{project.languageTwo}</span>
                 <span className="language js">{project.languageThree}</span>
