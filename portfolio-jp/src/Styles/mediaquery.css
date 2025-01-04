@@ -34,7 +34,7 @@ width: 81%;
 left: 2%;
 }
 .skills {
-top: 90%;
+top: 70%;
   }
   .contact-div {
     width: 100%;
@@ -42,6 +42,9 @@ top: 90%;
 .containers {
   position: relative;
   z-index: 1;
+}
+.containers h1 {
+  padding-bottom: 10% ;
 }
 
 

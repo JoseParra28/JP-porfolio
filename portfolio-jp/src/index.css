@@ -38,7 +38,7 @@
   z-index: 2;
 }
 .logo img {
-  height: 60px;
+  height: 45px;
   z-index: 3;
 }
 .dropdown img {
@@ -172,9 +172,6 @@
     touch-action: none;
   }
   }
-  /* .about-canvas {
-    width: 50%;
-  } */
   .htmlScreen iframe {
     z-index: 1;
   width: 1024px;
