@@ -1,4 +1,4 @@
- # Jose Parra Portfolio
+## Jose Parra Portfolio
 
  #### Technologies used
  - React Thee Fiber
