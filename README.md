@@ -1,5 +1,7 @@
 ## Jose Parra Portfolio
 
+[Live link] (https://jose-parra.netlify.app/)
+
  #### Technologies used
  - React Thee Fiber
  - WebGL
